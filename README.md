@@ -4,7 +4,7 @@
 ## 🏗️ Project Architecture
 Here is the high-level architecture of the pipeline, from data extraction to the final Star Schema in PostgreSQL.
 
-![Project Architecture](./airflow_project_architecture.png.png)
+![Project Architecture](./screenshots/airflow_project_architecture.png)
 
 ## 📌 Project Overview
 This project demonstrates an end-to-end Data Engineering...
@@ -30,26 +30,26 @@ This project demonstrates an end-to-end **Data Engineering Pipeline** that extra
 
 ### 1️⃣ Airflow Orchestration
 This is the main dashboard showing our DAGs and the successful execution of the ETL pipeline.
-![Airflow UI](./airflow_ui.png)
-![DAG Run Status](./run_dag.png)
+![Airflow UI](./screenshots/airflow_ui.png)
+![DAG Run Status](./screenshots/run_dag.png)
 
 ### 2️⃣ Pipeline Logic & Code
 A glimpse into the Python logic behind the data extraction and transformation.
-![DAG Code](./dag_code.png)
-![Pipeline Structure](./sales_pipeline.png)
+![DAG Code](./screenshots/dag_code.png)
+![Pipeline Structure](./screenshots/sales_pipeline.png)
 
 ### 3️⃣ Infrastructure (Docker)
 The entire system is containerized, ensuring a consistent environment for the database and Airflow workers.
-![Docker Containers](./docker_containers.png)
+![Docker Containers](./screenshots/docker_containers.png)
 
 ### 4️⃣ Data Warehouse (PostgreSQL)
 After the ETL process, data is structured into a Star Schema. Here are the Dimension and Fact tables.
-![Dimension Products](./dim_products.png)
-![Fact Sales](./fact_sales.png)
+![Dimension Products](./screenshots/dim_products.png)
+![Fact Sales](./screenshots/fact_sales.png)
 
 ### 5️⃣ Project Organization
 A clean and modular folder structure for easy maintenance.
-![Folder Structure](./folder_project.png)
+![Folder Structure](./screenshots/folder_project.png)
 
 
 
